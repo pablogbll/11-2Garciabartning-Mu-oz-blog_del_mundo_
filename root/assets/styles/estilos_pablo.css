@@ -1,0 +1,64 @@
+body{
+
+    background-color: black;
+    color:#FFFFFF;
+}
+h1{
+    color:azure;
+    text-align: center;
+}
+h2{
+    color: azure;
+    text-align: center;
+}
+footer{
+    color:azure;
+}
+
+
+article{
+
+    background-color: rgb(194, 185, 185);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-width: 1px; ;
+    border-bottom-style: solid;
+  border-color: #FFFFFF;  }
+  nav>ul>li .resaltado{
+
+  color: yellow;
+}
+
+#titulo_principal{
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+nav>ul>li>a{
+  text-decoration: none;
+}
+
+
+
+.ilustracion{
+  border-width: 4px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+.ilustracion figcaption {
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-style:italic;
+}
+
+#footer_blog{
+  margin: 2rem
+}
+
+nav>ul>li{
+  list-style:none
+}
+
