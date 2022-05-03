@@ -16,7 +16,7 @@ list-style: none;
     }
     
     #titulo_del_blog{
-        text-align: right;
+        text-align: center;
         font-size: 3rem;
         }
    
@@ -64,6 +64,8 @@ list-style: none;
     }
     section>aside{
         grid-column: span 4;
+        color:grey;
+        font-style: italic;
 
     }
     section>footer{
