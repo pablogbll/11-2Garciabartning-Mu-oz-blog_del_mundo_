@@ -18,11 +18,11 @@ footer{
 
 article{
 
-    background-color: rgb(194, 185, 185);
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-width: 1px; ;
-    border-bottom-style: solid;
+  background-color: rgb(194, 185, 185);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-width: 1px; ;
+  border-bottom-style: solid;
   border-color: #FFFFFF;  }
   nav>ul>li .resaltado{
 
@@ -55,9 +55,14 @@ nav>ul>li>a{
   font-style:italic;
 }
 
-#footer_blog{
-  margin: 2rem
+#footer_blog {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem
 }
+  
+  
+
 
 nav>ul>li{
   list-style:none
@@ -94,4 +99,85 @@ section>aside{
 section>footer{
 
   grid-column: span 12;
+}
+
+nav > ul {
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-around;
+
+  border-bottom: 1px solid #FFFFFF;
+
+  padding-bottom: 0.5rem;
+}
+
+nav ul li a{
+
+  text-decoration: none;
+  color:#FFFFFF;
+  
+}
+
+nav ul li a:hover{
+
+  text-decoration: underline;
+  color: greenyellow;
+  
+}
+
+article > header > hgroup {
+
+  justify-content: space-between;
+  text-align: right;
+}
+
+article > header > hgroup > h2 {
+
+  text-align: left;
+  flex-direction: column;
+}
+
+article > header > hgroup > h2 > img {
+
+  margin-right: 1rem;
+}
+
+aside > h2 {
+
+  text-align: center;
+  text-size-adjust: 1.3rem;
+  
+}
+
+aside > div > img {
+
+  background-color: #FFFFFF;
+
+  padding: 0.5rem;
+
+  border-radius: 50%;
+
+}
+
+aside div{
+  display: flex;
+  justify-content:center;
+  border-bottom: dashed;
+  padding: 1rem;
+}
+
+aside div span {
+  margin-left: 0.5rem;
+}
+
+aside div:nth-child(odd){
+  background-color: rgb(44, 43, 43);
+}
+
+#footer_blog div:nth-child(2) {
+
+  font-size: 0.9rem;
 }
