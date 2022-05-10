@@ -89,3 +89,73 @@ list-style: none;
         border-bottom: 1px solid #fff;
         padding-bottom: 0.5rem;
     }
+
+    nav ul li a{
+
+        text-decoration: none;
+        color:#FFFFFF;
+        
+      }
+      
+      nav ul li a:hover{
+      
+        text-decoration: underline;
+        color: greenyellow;
+        
+      }
+      
+      article > header > hgroup {
+      
+        justify-content: space-between;
+        text-align: right;
+      }
+      
+      article > header > hgroup > h2 {
+      
+        text-align: left;
+        flex-direction: column;
+      }
+      
+      article > header > hgroup > h2 > img {
+      
+        margin-right: 1rem;
+      }
+      
+      aside > h2 {
+      
+        text-align: center;
+        text-size-adjust: 1.3rem;
+        
+      }
+      
+      aside > div > img {
+      
+        background-color: #FFFFFF;
+      
+        padding: 0.5rem;
+      
+        border-radius: 50%;
+        justify-content: left;
+      }
+      
+      aside div{
+        display: flex;
+        justify-content:center;
+        border-bottom: dashed;
+        padding: 1rem;
+      }
+      
+      aside div span {
+        display: flex;
+        margin-left: 0.5rem;
+        justify-content:center;
+      }
+      
+      aside div:nth-child(odd){
+        background-color: rgb(44, 43, 43);
+      }
+      
+      #footer_blog div:nth-child(2) {
+      
+        font-size: 0.9rem;
+      }
