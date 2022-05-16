@@ -76,10 +76,7 @@ list-style: none;
         font-size: 1.3rem;
     }
 
-    nav>ul>li>a:hover{
-        text-decoration: underline;
-        color: greenyellow;
-    }
+  
 
     nav >ul {
 
@@ -156,6 +153,16 @@ list-style: none;
       }
       
       #footer_blog div:nth-child(2) {
+        display: flex;
+
+        align-items: center;
       
+        justify-content: space-around;
+      
+        border-bottom: 1px solid #FFFFFF;
+      
+        padding-bottom: 0.5rem;
         font-size: 0.9rem;
       }
+      
+   
