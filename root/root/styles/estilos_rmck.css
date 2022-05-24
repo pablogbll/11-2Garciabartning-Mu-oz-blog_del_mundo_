@@ -268,7 +268,7 @@ aside div img {
   -o-border-radius: 50%;
 }
 
-aside div:nth-child(2n) {
+aside div:nth-of-type(even) {
 
   background-color: rgb(44, 43, 43);
 }
